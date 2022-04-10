@@ -14,7 +14,17 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === 'Mozilla') {
+    return '[Mozilla](https://opensource.org/licenses/MPL-2.0)';
+  }
+  if (license === 'MIT') {
+    return '[MIT](https://opensource.org/licenses/MIT';
+  }
+  if (license === 'Boost') {
+    return '[Boost](https://www.boost.org/LICENSE_1_0.txt)';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
