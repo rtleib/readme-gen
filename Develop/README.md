@@ -17,15 +17,13 @@
   ## Usage
   #### To use this, type in "node index" in the terminal to start generating the README.
   ## License
-  
-    Mozilla
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-    (https://opensource.org/licenses/MPL-2.0)
-    
+  #### Boost
+  [![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [Boost](https://www.boost.org/LICENSE_1_0.txt)
   ## Contribution
   #### Thank you to https://github.com/coding-boot-camp/potential-enigma for the starter code.
   ## Tests
-  #### Recording of the generator:  https://drive.google.com/file/d/1YqaO8a89hJbei9TW1FIjWqR8TVTMO7UZ/view.
+  #### Recording of the generator: https://drive.google.com/file/d/1YqaO8a89hJbei9TW1FIjWqR8TVTMO7UZ/view.
   ## Questions
   #### For additional questions, please contact me in this email address: rtleib@gmail.com.
   ## GitHub Username 

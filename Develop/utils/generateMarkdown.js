@@ -5,10 +5,10 @@ function renderLicenseBadge(license) {
     return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
   }
   if (license === 'MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT]';
   }
   if (license === 'Boost') {
-    return '[![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]';
+    return '[![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
   }
 }
 
@@ -33,7 +33,6 @@ function renderLicenseSection(license) {
     return '';
   } else {
     return `
-    ${license}
     ${renderLicenseBadge(license)}
     ${renderLicenseLink(license)}
     `;
@@ -61,7 +60,9 @@ function generateMarkdown(data) {
   ## Usage
   #### ${data.usage}.
   ## License
-  ${renderLicenseSection(data.license)}
+  #### ${data.license}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
   ## Contribution
   #### ${data.contribution}.
   ## Tests
