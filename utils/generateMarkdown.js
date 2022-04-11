@@ -53,8 +53,8 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [GitHub Username](#githubUsername)
-  * [Contact Info](#email)
+  * [GitHub Username](#github-username)
+  * [Contact Info](#contact-info)
 
   ## Installation
   #### ${data.installation}.
