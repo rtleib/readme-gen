@@ -10,7 +10,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   * [GitHub Username](#github-username)
-  * [Contact Info](#contact info)
+  * [Contact Info](#contact-info)
 
   ## Installation
   #### .
@@ -23,9 +23,9 @@
     (https://opensource.org/licenses/MPL-2.0)
     
   ## Contribution
-  #### .
+  #### clear.
   ## Tests
-  #### .
+  #### dfsd.
   ## Questions
   #### .
   ## GitHub Username 
