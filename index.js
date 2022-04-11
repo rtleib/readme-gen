@@ -45,7 +45,7 @@ const questions = [
   {
     type: 'input',
     name: 'questions',
-    message: 'what would you like to describe in the tests?',
+    message: 'what would you like to describe in the questions?',
   },
   {
     type: 'input',
@@ -69,6 +69,12 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+  inquirer.prompt(questions).then((answers) => {
+    console.log(answers);
+    // var markdown = generateMarkdown(answers)
+    // console.log(markdown)
+    writeToFile('README.md', generateMarkdown(answers));
+  });
 }
 
 // Function call to initialize app
