@@ -67,11 +67,9 @@ function generateMarkdown(data) {
   ## Tests
   #### ${data.tests}.
   ## Questions
-  #### ${data.questions}.
+  #### For additional questions, please contact me in this email address: ${data.questions}.
   ## GitHub Username 
   #### My username for GitHub is ${data.githubUsername}.
-  ## Contact Info
-  #### For additional questions, please contact me in this email address: ${data.email}.
 `;
 }
 
