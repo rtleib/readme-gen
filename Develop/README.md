@@ -13,7 +13,7 @@
   * [Contact Info](#contact-info)
 
   ## Installation
-  #### In order for the generator to work, you would need to first install npm ("nmp i") in the terminal.
+  #### In order for the generator to work, you would need to first install npm ("npm i") in the terminal.
   ## Usage
   #### To use this, type in "node index" in the terminal to start generating the README.
   ## License
