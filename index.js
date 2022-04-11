@@ -49,14 +49,14 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'github username',
+    name: 'githubUsername',
     message: 'please enter your link to your GitHub profile',
   },
   {
     type: 'input',
     name: 'email',
     message: 'what is a good email address to contact you for additional questions?',
-  },
+  }
 ];
 
 // TODO: Create a function to write README file
