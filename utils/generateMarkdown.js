@@ -33,7 +33,7 @@ function renderLicenseSection(license) {
     return '';
   } else {
     return `
-    ## ${license}
+     ${license}
     ${renderLicenseBadge(license)}
     ${renderLicenseLink(license)}
     `;
@@ -43,16 +43,25 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ## Description${data.description}
-  ## Installation ${data.installation}
-  ## Usage ${data.usage}
-  ## License ${data.license}
-  ${renderLicenseSection(data.license)}
-  ## Contribution ${data.contribution}
-  ## Tests ${data.tests}
-  ## Questions ${data.questions}
-  ## GitHub Username ${data.githubUsername}
-  ## Email ${data.email}
+  ## Description
+  #### ${data.description}.
+  ## Installation
+  #### ${data.installation}.
+  ## Usage
+  #### ${data.usage}.
+  ## License
+  #### ${renderLicenseSection(data.license)}.
+  
+  ## Contribution
+  #### ${data.contribution}.
+  ## Tests
+  #### ${data.tests}.
+  ## Questions
+  #### ${data.questions}.
+  ## GitHub Username 
+  #### My username for GitHub is ${data.githubUsername}.
+  ## Contact Info
+  #### For additional questions, please contact me in this email address: ${data.email}.
 `;
 }
 
